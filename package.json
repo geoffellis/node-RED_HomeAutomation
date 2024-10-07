@@ -2,7 +2,13 @@
     "name": "HomeAutomationProject",
     "description": "Project for collection of flows to monitor things in the house. ie things not big enough or complex enough for thier own instance of a project/docker image",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-bigtimer": "2.8.6",
+        "node-red-contrib-boolean-logic-ultimate": "1.1.18",
+        "node-red-contrib-tplink": "1.0.1",
+        "node-red-node-random": "0.4.1",
+        "node-red-contrib-alexa-home-skill": "0.1.19"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
